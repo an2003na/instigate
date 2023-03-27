@@ -8,7 +8,7 @@ proc main {} {
     set b 2
     set x 2
     set y 2
-    if {[find_x 2 2 2] == 0 && [find_y 2 2 2] == 6} {
+    if {[find_x $k $b $y] == 0 && [find_y $k $b $x] == 6} {
         puts "Test passed."
     } else {
         puts "Test failed."
